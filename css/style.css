@@ -7,14 +7,22 @@ body {
     background-size: cover;  
 }
 
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 200%;
+}
+
 header:first-child {
     background-color: yellow;
     border: solid 3px;
     padding-left: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 320px;
-    margin-right: 320px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 blockquote {
@@ -30,16 +38,6 @@ blockquote {
     background-color: rgb(223, 217, 217);
     font-style: italic;
 }
-.notification{
-    background:#FFFFDD;
-    padding:.5rem 1rem;
-    border:3px solid #DDDDCC;
-    width:250px;
-    font-weight:bold;
-    position: fixed ;
-    float: right;
-    margin: 550px 0px 0px 1000px;
-  }
 
 .imgfloat1 {
     display: block;
@@ -60,7 +58,6 @@ blockquote {
     margin-bottom: 10px;
 }
 
-
 p {
     font-family: serif;
     color: rgb(59, 59, 59);
@@ -76,6 +73,10 @@ p {
 
 .good, .bad {
     text-transform: capitalize;
+}
+
+table, tfoot { 
+    margin: 20px 450px 20px 450px;
 }
 
 table, td{
