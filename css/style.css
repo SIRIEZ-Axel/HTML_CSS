@@ -1,0 +1,141 @@
+body {
+    max-width: 90%;
+    margin: 0px 200px 0px 200px;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;  
+}
+
+header:first-child {
+    background-color: yellow;
+    border: solid 3px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+blockquote {
+    display: block;
+    left: auto;
+    right: auto;
+    margin: 80px 0px 80px 0px;
+    border: 10px;
+    border-left: solid;
+    border-left-color: firebrick;
+    padding: 30px;
+    font-size: 160%;
+    background-color: rgb(223, 217, 217);
+    font-style: italic;
+}
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    position: fixed ;
+    float: right;
+    margin: 550px 0px 0px 1000px;
+  }
+
+.imgfloat1 {
+    display: block;
+    float: right;
+    margin: 20px 0px 20px 250px;
+}
+
+.imgfloat2 {
+    display: block;
+    float: left;
+    margin: 20px 250px 20px 0px;
+}
+
+.imgfloat3 {
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-family: serif;
+    color: rgb(59, 59, 59);
+}
+
+.good {
+    color: green;
+}
+
+.bad {
+    color: red;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+table, td{
+    border-collapse: collapse;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.trg {
+    background-color: grey;
+}
+
+.trw {
+    background-color: white;
+}
+
+a:hover {
+    content: attr(title);
+    color: aqua;
+}
+
+a:visited {
+    color: rgb(75, 73, 73);
+}
+
+.bien {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.mal {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    font-size: 120%;
+    margin-bottom: 80px;
+}
+
+.chat {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding: 7px 7px 7px 7px;
+    margin-left: 10px;
+    padding-bottom: 10px;}
+
+caption, tfoot {
+    font-weight: bold;
+}

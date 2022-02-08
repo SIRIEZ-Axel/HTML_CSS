@@ -1,1 +1,2 @@
-# HTML_CSS
+# Training HTML | CSS
+:computer:
